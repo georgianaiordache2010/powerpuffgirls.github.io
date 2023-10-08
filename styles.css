@@ -1,41 +1,41 @@
- body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: #000;
- }
+body {
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   background-color: #000;
+}
 
- .header {
-    text-align: center;
- }
+.header {
+   text-align: center;
+}
 
- .video-container {
-    height: 100vh;
-    overflow: hidden;
- }
+.video-container {
+   height: 100vh;
+   overflow: hidden;
+}
 
- .website-description {
-    margin-top: 5em;
-    display: flex;
-    justify-content: center;
-    font-size: 1.5em;
-    text-align: center;
-    color: #FFFFFF;
-    margin-bottom: 5em;
- }
-
- .website-description-container {
-    width: 80%;
- }
-
- .website-planets-container{
-   color: #FFFFFF;
- }
-
- .planets{
+.website-description {
+   margin-top: 5em;
    display: flex;
- }
+   justify-content: center;
+   font-size: 1.5em;
+   text-align: center;
+   color: #FFFFFF;
+   margin-bottom: 5em;
+}
 
- .swiper-container {
+.website-description-container {
+   width: 80%;
+}
+
+.website-planets-container {
+   color: #FFFFFF;
+}
+
+.planets {
+   display: flex;
+}
+
+.swiper-container {
    width: 100%;
    height: 100vh;
 }
@@ -70,4 +70,14 @@
 
 .swiper-button-next {
    right: 20px;
+}
+
+.slider-container{
+  display: flex;
+}
+
+.slider-side-information {
+  font-size: 0.8em;
+  align-self: center;
+   color: #FFFFFF;
 }
